@@ -21,6 +21,7 @@ namespace CommonDatabaseAccess
         public SqlServerDBA()
         {
             this.conn = new SqlConnection(ConnectStr);
+
         }
 
         public override IDbConnection GetConnection()
