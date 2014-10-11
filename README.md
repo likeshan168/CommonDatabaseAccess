@@ -15,7 +15,7 @@ mysql数据库=>对应的factoryName 为 MySqlDBA 同时也要将那个连接字
 sqlite数据库=>对应的factoryName 为 SQLiteDBA 同时也要将那个连接字符串改成sqlite数据库使用的连接字符串
 
 <!--sql server数据库连接-->
-    <!--<add name="connStr" connectionString="data source=www.cosen168.com;initial catalog=cosen;user id=sa;password=cosen" />-->
+    <!--<add name="connStr" connectionString="data source=.;initial catalog=cosen;user id=sa;password=test" />-->
     <!--mysql数据库连接字符串-->
     <!--<add name="connStr" connectionString="server=localhost;initial catalog=cosen;user id=root;password=" />-->
     <!--oracle数据库连接字符串-->
